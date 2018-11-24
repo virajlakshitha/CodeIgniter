@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+#a{
+    color: white;
+}
+footer{
+    padding: 20px;
+    color: white;
+}
+.square:hover{
+    background-color: #f7f8f9;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:576px){
+    #layer1{
+        width: 100%;
+        height: 50px;
+    }
+    #as{
+        display: hidden;
+    }
+}
+
+@media only screen and (max-width:768px){
+    
+}
+
+@media only screen and (max-width:992px){
+    
+}
+
+@media only screen and (max-width:1200px){
+    
+}
+
+@media only screen and (min-width:1200px){
+    .Dlayer1{
+        margin-top: 20px;
+        color: white;
+    }
+    .Dlayer2{
+        margin: 5px 20px;
+        color: white;
+        font-size: 20px;
+    }
+    .Dlastlayer{
+        margin-bottom: 50px;
+    }
+    .Dlayer3{
+        margin-top: 20px;
+        color: black;
+        display: inline-block;
+    }
+    .square{
+        border: 1px solid black;
+        width: 180px;
+        border-radius: 5px;
+        padding: 10px 0;
+    }
+    .previous{
+        margin-left: -20px;
+    }
+}
