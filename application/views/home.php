@@ -6,6 +6,8 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/home.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/template.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/footer.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
@@ -152,7 +154,7 @@
 <!--*****************************************************-->
 
 <!--***************Nokia Area******************-->
-<div class="container Dlayer1 Dlastlayer">
+<div class="container Dlayer1">
     <div class="row bg-dark">
         <strong class="Dlayer2">NOKIA</strong>
     </div>
@@ -203,10 +205,7 @@
 <!--*****************************************************-->
 
 <!--******************Footer********************-->
-<footer class="container-fluid bg-dark">
-    <center>Developed by Viraj LK</center><br>
-    <center>&copy;&nbsp;All Rights Reserved</center>
-</footer>
+<?php require_once('footer.php'); ?>
 <!--*****************************************************-->
 
 
@@ -216,3 +215,4 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script type='text/javascript' src="<?php echo base_url(); ?>js/main.js"></script>
+<script type='text/javascript' src="<?php echo base_url(); ?>js/template.js"></script>
