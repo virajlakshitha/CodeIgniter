@@ -16,13 +16,35 @@
 
     <?php require_once('template.php') ?>
 
-    <div class="container">
+    <!--***************Search Name*******************-->
+    <div class="container search_name">
         <div class="row">
-            <div id="search_content">
-                aa
+            <div class="col-5">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11">Search Name</div>
+                </div>
             </div>
         </div>
     </div>
+    <!--**********************************************-->
+
+    <!--***************Search Name*******************-->
+    <div class="container search_content">
+        <div class="row">
+            search content
+        </div>
+    </div>
+    <!--**********************************************-->
+
+    <!--***************Pagination*******************-->
+    <div class="container">
+        <div class="row">
+            pagination
+        </div>
+    </div>
+    <!--**********************************************-->
+
 
 </body>
 <?php require_once('footer.php') ?>
