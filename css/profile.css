@@ -20,7 +20,20 @@
     .part1{
         margin-top: 20px;
         border: 1px solid black;
-        background-color: antiquewhite;
+        background-color: skyblue;
         padding-bottom: 20px;
+        padding: 10px;
+    }
+    #image{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+    }
+    .right_side{
+        margin-top: 100px;
+        padding-right: 10px;
+    }
+    #purchase_content{
+        padding: 20px;
     }
 }
