@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+}
+.content{
+    margin-top: 25px;
+    background-color: cadetblue;
+    padding: 10px 40px;
+}

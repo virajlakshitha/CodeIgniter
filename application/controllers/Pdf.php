@@ -5,6 +5,9 @@ class Pdf extends CI_Controller{
 
     public function __construct(){
         parent::__construct();
-        $this->load->model('Pdf_model');
+    }
+
+    public function index(){
+        $this->load->view('about_us');
     }
 }
